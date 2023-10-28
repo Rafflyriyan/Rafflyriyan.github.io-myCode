@@ -1,0 +1,118 @@
+$lebar:1200px;
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:rgb(251, 244, 225);
+}
+.container{
+    width: $lebar;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+}
+.ai-center{
+    align-items: center;
+}
+.f-wrap{
+    flex-wrap: wrap;
+}
+.img-responsive{
+    width: 100%;
+}
+.jc-spacebetween{
+    justify-content: space-between;
+}
+h1,h2,h3,h4,h5,p,body{
+    margin: 0;
+    padding: 0;
+}
+.ti-center{
+    text-align: center;
+}
+h1,h2,h3{
+    line-height: 120%;
+}
+p{
+    line-height: 140%;
+}
+.lh-120{
+    line-height: 120%;
+}
+.lh-180{
+    line-height: 180%;
+}
+.bigTitle{
+    font-size: 3em;
+    letter-spacing: -2px;
+}
+.spacer5{
+    margin: 5px 0 0; 
+}
+.spacer6{
+    margin: 6px 0 0; 
+}
+.spacer10{
+    margin: 10px 0 0; 
+}
+.spacer20{
+    margin: 20px 0 0; 
+}
+.spacer40{
+    margin: 40px 0 0; 
+}
+.spacesection{
+    padding: 5% 0;
+}
+.icon64{
+    width: 64px;
+}
+.header{
+    .logo{
+        h1{
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+    .menu{
+        a{
+            text-decoration: none;
+            color: black;
+            padding: 10px;
+            &:hover{
+                font-weight: bold;
+            }
+        }
+    }
+    .login{
+        a{
+            background: black;
+            text-decoration: none;
+            color: white;
+            border: 1px solid black;
+            padding: 10px;
+            border-radius: 20px;
+            &:hover{
+                font-weight: bold;
+            }
+        }
+    }
+}
+.hero{
+    &desc{
+        width: 40%;
+    }
+    &image{
+        width: 55%;
+    }
+}
+.service{
+    &-item{
+        width: 23%;
+        border: 1px solid black;
+        box-sizing: border-box;
+        border-radius: 30px;
+        padding: 20px;
+    }
+}
